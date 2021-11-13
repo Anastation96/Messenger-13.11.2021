@@ -6,7 +6,9 @@ namespace Messenger_13._11._2021
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Message msg = new Message();
+            Console.WriteLine("Start project!");
+            Console.WriteLine(msg.ToString());
         }
     }
 }
