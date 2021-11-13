@@ -6,4 +6,8 @@
     <RootNamespace>Messenger_13._11._2021</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
+  </ItemGroup>
+
 </Project>

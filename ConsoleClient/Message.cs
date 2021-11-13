@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Messenger_13._11._2021
 {
+    [Serializable] // только для публичных классов
     public class Message
     {
         public string UserName { get; set; }
@@ -14,7 +15,7 @@ namespace Messenger_13._11._2021
 
         public Message(string userName, string messageText, DateTime timeStamp)
         {
-            UserName = UserName;
+            UserName = userName;
             MessageText = messageText;
             TimeStamp = timeStamp;
         }
