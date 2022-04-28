@@ -41,6 +41,7 @@ namespace WindowsFormsClient
             // 
             // SendButton
             // 
+            this.SendButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SendButton.Location = new System.Drawing.Point(682, 405);
             this.SendButton.Name = "SendButton";
             this.SendButton.Size = new System.Drawing.Size(104, 33);
